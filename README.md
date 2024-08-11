@@ -1,18 +1,39 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+*Java GUI Chat Application:
+   This project is a simple Chat Application built using Java Swing for the graphical user interface (GUI). The application allows users to send and receive messages in real-time, demonstrating basic client-server communication in Java.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+*Features:
+   User-Friendly Interface: Easy-to-use graphical interface built with Java Swing. 
+   Real-Time Messaging: Send and receive messages instantly.
+   Client-Server Architecture: Demonstrates basic networking in Java using sockets.
+   
+*Installation:
+    To run this project locally, follow these steps:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+*Clone the repository:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+      1.Copy code:  
+            git clone https://github.com/aryanduamle/JAVA-GUI_PROJECTS.git
+      2.Navigate to the project directory:
 
-## Dependency Management
+            cd JAVA-GUI_PROJECTS/Chat Application
+      3.Compile the Java files:
+            javac *.java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+      4.Run the application:
+            java ChatApplication
+
+
+*How to Use:
+    Start the Server: Run the server file to start listening for client connections.
+    Connect Clients: Open multiple instances of the client application to simulate a chat environment.
+    Send Messages: Type your message in the input field and press "Send" to communicate with other connected clients.
+
+*Technologies Used:
+    Java: Core programming language.
+    Swing: For building the GUI.
+    Sockets: For handling client-server communication.
+*Contributing:
+    If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are always welcome!
